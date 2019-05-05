@@ -2,7 +2,7 @@ const http = require('http');
 const hostname = 'leia.cs.spu.edu';
 const port = 3022;
 
-var friends = require("./friends.json"); // Once for all times
+var friends = require("./friends2.json"); // Once for all times
 
 const server = http.createServer((request, response) => {
     response.statusCode = 200;
